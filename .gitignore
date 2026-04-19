@@ -1,0 +1,50 @@
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Docker
+.dockerignore
+docker-compose.override.yml
+
+# 环境配置
+.env
+.env.local
+.env.*.local
+
+# 日志
+*.log
+logs/
+*.pid
+
+# 临时文件
+*.tmp
+temp/
+cache/
+
+# 依赖
+node_modules/
+__pycache__/
+*.egg-info/
+.Python
+env/
+venv/
+
+# 构建输出
+dist/
+build/
+.gradle/
+
+# 容器
+.container-id
